@@ -1,7 +1,11 @@
 from cs50 import get_float, get_int
 
-def jereo_rah_geom(zvtr):
-    print('voahantso tsara!')
+def check(zvtr):
+    arithm = []
+    geom = []
+    fibo = []
+    for zvt in range(zvtr):
+        arithm
 
 def main():
     val = get_int('how many letters do u have? ')
@@ -15,6 +19,6 @@ def main():
         tabs = get_float('alefa ary: ')
         tab.append(tabs)
 
-    jereo_rah_geom(tab)
+    check(tab)
 
 main()
